@@ -1,0 +1,18 @@
+{
+  "name": "today_front",
+  "version": "1.0.0",
+  "description": "Front end for task",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean Paul",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "*"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.7"
+  }
+}

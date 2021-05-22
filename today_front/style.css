@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: white;
+}
+.wrapp {
+    margin: 5% 15% 0 20%;
+    height: 100vh;
+}
+.mainfooter{
+    position: absolute;
+    bottom: 0;
+    min-height: 50px;
+    margin-left: 10rem;
+    width: 100%;
+
+}
+.title_todo{
+    padding: 18px;
+    margin: 3px;
+    
+}
+.taskCard{
+    background-color: rgb(90, 86, 86);
+    padding-bottom: 15px; 
+}
+
+ul li{
+    list-style: none;
+    padding: 5px;
+    margin: 5px 0 5px 25px ;
+}
+.status{
+    margin-left: 15px;
+    font-size: 14px;
+}
+.header-card{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border-bottom: 2px solid tomato;
+}
+i{
+    color: rgb(82, 224, 105)
+}
+.time{
+    color:white;
+}
+.messageSuccess{
+    margin-left: 20px;
+    padding: 10px;
+    color: green;
+}
+button{
+    background-color: rgb(236, 125, 105);
+    border: none;
+    border-radius: 15px;
+    padding: 6px;
+    margin-top: 6px;
+}
+
+/* modal */
+.close-modal{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin-bottom: 2px;
+    font-size: 34px;
+    border: none;
+    background: white;
+    color:firebrick;
+    padding: 3px;
+}
+.hidden{
+    display: none;
+}
+.show-modal{
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 16px;
+    font-size: 16px;
+}
+.modal{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: white;
+    padding: 3rem;
+    border-radius: 5px;
+    box-shadow: 0 1rem 10rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+input{
+    outline: none;
+    padding: 8px;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    border: 1px solid tomato;
+}

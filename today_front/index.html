@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+</head>
+<body>
+    <div class="wrapp">
+        <div class=" container taskCard">
+             <div class="row">
+                <div class="header-card">
+                    <div class="btn show-modal"> <button>Add Task</button> </div>
+                   <div class="title_todo">List of Todo</div>
+                </div>
+                <div class="messageSuccess"></div>
+             </div>
+             <div class="container">
+                 <div class="row">
+                        <div class="task_Div">
+                        </div>
+                 </div>
+             </div>
+        </div>
+        <div class="modal hidden">
+            <button class="close-modal">&times;</button>
+            <h1>I'm Ready to Add Task</h1>
+            <p>
+                <input type="text" id="Input" placeholder="task Title">
+                <button class="addTask" id="addTask">Save Your Task</button>
+            </p>
+        </div>
+        <div class="overlay hidden"></div>
+
+        <div class="mainfooter">
+            &copy allright reserved by Jean Paul
+        </div>
+    </div>    
+    
+</body>
+<!-- <script src="index.js"></script> -->
+<script src="script.js"></script>
+</html>
