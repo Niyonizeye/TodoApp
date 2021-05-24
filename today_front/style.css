@@ -55,6 +55,11 @@ i{
     padding: 10px;
     color: green;
 }
+.messageError{
+    margin-left: 20px;
+    padding: 10px;
+    color: red;
+}
 button{
     background-color: rgb(236, 125, 105);
     border: none;
@@ -103,11 +108,20 @@ button{
     width: 100%;
     height: 100%;
 }
-input{
+.input{
     outline: none;
     padding: 8px;
     margin-top: 10px;
     width: 100%;
     border: none;
     border: 1px solid tomato;
+}
+
+/* status */
+.task_status{
+    display: none;
+    background: white;
+    width: 50%;
+    margin: 15px;
+    padding: 15px;
 }
