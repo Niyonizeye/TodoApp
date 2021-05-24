@@ -10,13 +10,22 @@ const getTask = async () => {
     })
     .then((data) =>{
         const alltask = (item, index) =>{
+            // if( item.Status === "Completed"){
+            //     document.getElementById("myCheck")[index].checked = true;
+            // }
+            // else{
+            //     console.log('failed')
+            //     // document.getElementById('pending').checked = true;
+            // }
             const html = `
             <div class="allTasks">
                 <ul >
                     <li>
                     <strong>${index + 1}:  ${item.title}</strong><br>
                     <span class="status">Status: <i>${item.Status}</i></span><br>
-                    <span class="status">Subtasks: <i>${item.subtasks}</i></span><br>
+                    <span class="status">Subtasks: <i>${item.subtasks}</i></span><br><br>
+                    <input type="checkbox" id="myCheck"> : Pending
+                    <input type="checkbox" id="myCheck"> : completed
                     <span class="status">Time: <i class="time">${item.created_Date}</i></span><br>
                     <button class="addTask editTask">Edit Your Task</button>
 
